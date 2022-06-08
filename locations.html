@@ -19,17 +19,21 @@
     <title>Locations</title>
   </head>
   <body>
-      <div class="p-3 mb-2 bg-warning text-dark">
-    <button> <a href="home.html"> Home</a></button>
-    <button> <a href="recipe.html"> Recipes</a></button>
-    
-    <!-- add Florencia file's name at href -->
-    <button> <a href="locations.html">Places to Buy</a></button>
-</div>
+    <header> 
+      <div class="p-3 mb-2 bg-warning text-dark w-60">
+      <button> <a href="home.html"> Home</a></button>
+      <button> <a href="recipe.html"> Recipes</a></button>
+      <button> <a href="locations.html">Places to Buy</a></button>
+    </div> 
+  </header>
+  
     <h1 class="h1 p-2">Places to buy the best pancakes:</h1>
     <br />
     <section class="container p-3">
-      <div class="row row-cols-3">
+      <!-- class="row- row-cols-3 changed to class="row row-cols-1 row row-cols-sm-2 row g-2"
+ " -->
+      <div class="row row-cols-1 row row-cols-sm-2 row g-2
+      ">
         <article class="card p-2">
           <img
             class="card-img-top"
@@ -38,8 +42,8 @@
             src="https://assets.londonist.com/uploads/2019/01/i875/41968598_2149914175020234_4658475606898376704_n.jpg"
           />
           <div class="card-body">
-            <h3>My Old Dutch</h3>
-            <p>
+            <h3 class="card-title">My Old Dutch</h3>
+            <p class="card-text">
               It could be easy to sniff at My Old Dutch, with its bright orange
               frontage, tiny yet strangely comfortable wooden chairs and
               mock-Delftware plates. It is defiantly, sweetly, uncool. But the
@@ -66,7 +70,7 @@
             src="https://assets.londonist.com/uploads/2019/01/i875/p1390345.jpg"
           />
           <div class="card-body">
-            <h3>Drunch, Mayfair</h3>
+            <h3 class="card-title">Drunch, Mayfair</h3>
             <p class="card-text">
               If you want your pancakes with a side of Instagram likes, Drunch
               is the place for you. Situated just a 30-second walk from the
