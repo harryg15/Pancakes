@@ -21,3 +21,27 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.carousel-item {
+    max-height: 800px
+}
+
+#first {
+    margin-top: -200px;
+}
+
+#second {
+    margin-top: -200px;
+}
+
+#third {
+    width: 100%;
+   margin: auto;
+}
+
+#container {
+    width: 900px;
+    text-align: center;
+
+    
+}
