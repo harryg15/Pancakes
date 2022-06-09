@@ -2,20 +2,20 @@ body {
     background-color: white;
 }
 
-h1 {
+/* h1 {
     text-align: center;
 }
 
 h2 {
     text-align: center;
-}
+} */
 
-img {
+/* img {
     border-radius: 8px;
     width: auto;
     height: auto;
 
-}
+} */
 
 a {
     text-decoration: none;
@@ -23,7 +23,8 @@ a {
 }
 
 .carousel-item {
-    max-height: 800px
+    max-height: 800px;
+    
 }
 
 #first {
@@ -35,13 +36,13 @@ a {
 }
 
 #third {
+    margin-top:-200px;
     width: 100%;
-   margin: auto;
+
 }
 
 #container {
-    width: 900px;
+    width: 100%;
     text-align: center;
-
     
 }
